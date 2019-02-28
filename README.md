@@ -1,3 +1,7 @@
+- DEMO
+- Buffer local state with interval(ms), and sync local state with redux state.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
