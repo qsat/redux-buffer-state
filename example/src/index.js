@@ -2,11 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { createStore, combineReducers } from 'redux';
 import { Provider } from 'react-redux';
-import { debugReducer } from './components/utils/hooks/useBufferState';
 import appReducer from './redux/module/reducer';
 import './index.css';
 import App from './components/App';
-import { ReduxDispatchProvider } from './components/utils/hooks/useBufferState'
+import { debugReducer, ReduxDispatchProvider } from './lib'
 import * as serviceWorker from './serviceWorker';
 
 const store = createStore(

@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import useBufferState from '../utils/hooks/useBufferState'
+import useBufferState from '../../lib'
 
 const INITIAL_STATE = { value: 'aa' }
 
@@ -19,5 +19,3 @@ export default function Input (props) {
     <input type="text" width="200" placeholder="input text..." value={state.value} onChange={handleChange} />
   )
 }
-
-

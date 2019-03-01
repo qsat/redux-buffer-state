@@ -1,35 +1,28 @@
 {
   "name": "redux-buffer-state",
   "version": "0.0.1",
-  "private": true,
-  "devDependencies": {
-    "react-scripts": "^2.1.5"
-  },
-  "peerDependencies": {
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
-    "react-redux": "^6.0.1",
-    "redux": "^4.0.1"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "tsc --project ."
   },
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
-  "dependencies": {
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
-    "react-redux": "^6.0.1",
-    "redux": "^4.0.1"
+  "peerDependencies": {
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-redux": "6.0.1",
+    "redux": "4.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "16.8.6",
+    "@types/react-dom": "16.8.2",
+    "@types/react-redux": "7.0.1",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-redux": "6.0.1",
+    "redux": "4.0.1",
+    "typescript": "3.3.3333"
   }
 }

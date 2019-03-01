@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
 import counter from './counter'
-import { createPartialReducer } from '../../components/utils/hooks/useBufferState'
+import { createPartialReducer } from '../../lib'
 
 export default combineReducers({
   counter,
