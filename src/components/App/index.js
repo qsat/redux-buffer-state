@@ -1,14 +1,10 @@
-import React, { useContext } from 'react';
-import { ReactReduxContext } from 'react-redux';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 import Input from '../Input'
 
 export default function App() {
-  const { storeState } = useContext(ReactReduxContext);
-
-  const val = storeState.app.sample.value
   return (
     <div className="App">
       <header className="App-header">
@@ -24,7 +20,7 @@ export default function App() {
         >
           Learn React
         </a>
-        <Input value={val} />
+        <Input value={123}/>
       </header>
     </div>
   )
